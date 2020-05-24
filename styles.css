@@ -1,0 +1,39 @@
+#old_cat {
+    display: none
+}
+.product-cat-steps {
+    margin-left: 13px
+}
+.first-label-categories {
+    margin-left: 0;
+    padding-left: 20px;
+    max-height: 200px;
+    overflow-y: scroll;
+}
+.cata-expand {
+    position: relative;
+    display: inline-block !important;
+    float: left;
+    width: 0
+}
+.cata-expand-minus:before,
+.cata-expand-plus:before {
+    position: absolute;
+    font-size: 16px;
+    left: -24px;
+    top: -4px;
+    color: #444;
+    padding: 5px;
+    line-height: 15px;
+    cursor: pointer
+}
+
+.cata-expand-plus:before {
+    content: '+';
+}
+.cata-expand-minus:before {
+    content: '-';
+}
+.dcdc-sub-categories {
+    display: none
+}
